@@ -4,7 +4,7 @@ outputapp:
 
   deploy:
     name: outputapp-deploy
-    replicas: 1
+    replicas: 2
     containers:
       name: outputapp
       imagePullPolicy: IfNotPresent
